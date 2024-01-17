@@ -1,0 +1,9 @@
+csvwriter.writerow([c, Downloads, Name, Lastest_realise, Create_date, File_size]) 
+    """ print(Name)
+    print(Lastest_realise)
+    print(Create_date)
+    print(Fize_size)
+    print(Downloads)"""
+
+print(f"Done writing {c} entries to the csv file!")
+csvfile.close()
